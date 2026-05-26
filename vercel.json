@@ -1,0 +1,13 @@
+{
+  "crons": [
+    {
+      "path": "/api/fetch-data",
+      "schedule": "*/7 * * * *"
+    }
+  ],
+  "functions": {
+    "api/**/*.js": {
+      "maxDuration": 20
+    }
+  }
+}

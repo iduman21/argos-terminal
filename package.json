@@ -1,0 +1,10 @@
+{
+  "name": "argos-terminal-vercel",
+  "private": true,
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo \"Use Vercel for deployment\""
+  }
+}
